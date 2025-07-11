@@ -96,3 +96,113 @@ nav li a {
     font-weight: 400 px;
     color: #757575;
    }
+
+   /* about section style */
+
+   .about{  max-width:760px;
+      margin:80px auto;
+       background-color: #FFF8F3;
+       padding:85px 130px;
+       text-align: center;
+       border-radius: 10px;
+   
+   }
+  .about-tital{
+    font-size: 24px;
+    font-weight: bold;
+    color: #181818;
+  }
+  .about-description{
+    font-size: 18px;
+    font-weight:regular;
+    color: #757575;
+  }
+  .about-items{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item-tital{
+    font-size:20px;
+    font-weight:regular;
+    color: #757575;
+  }
+  .item-description{
+    font-size: 20px;
+    font-weight:bold;
+    color: #474747;
+  }
+  /*              */
+  /* skill section */
+  .txt-center{
+    text-align: center;
+
+  }
+  .section-tital{
+    color: #181818;
+    font-size:29px;
+    font-weight:bold;
+  }
+
+  .skills-section{
+    max-width: 775px; 
+    margin: 80px auto;
+    
+  }
+
+  .skill-container{
+    display: flex;
+    gap:20px;
+  }
+
+  .skill-itam{
+    padding:20px 25px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  .skill-itam:hover{
+    transform: scale(1.07) translateY(-10px);
+    transition: .4s;
+  }
+
+  /* resume section */
+
+ .resume-container{
+    display: flex;
+     max-width: 775px; 
+    margin: 80px auto;
+    gap: 24px;
+  }
+  .section-title{
+    color: #181818;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .resume-title{
+    color: #474747;
+    font-size: 24px;
+    font-weight: 600;}
+    .experience-title{
+        color: #474747;
+        font-size:19px;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+
+    .experience-sub-title{
+        color: #757575;
+        font-size:17px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    .experience-description{
+        color: #757575;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .download-cv{
+        text-align: center;
+        margin-bottom:70px;
+    }
